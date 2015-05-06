@@ -18,28 +18,3 @@ html,
 body {
     height: 100%;
 }
-
- #test-img{
- 	background-image: url("test.png");
-	background-repeat: no-repeat;
-	background-size: 100% 100%;
- }
-
- .carousel,
- .item,
- .active {
-     height: 100%;
- }
-
- .carousel .item {-webkit-transition: opacity 4s; -moz-transition: opacity 4s; -ms-transition: opacity 4s; -o-transition: opacity 4s; transition: opacity 4s;}
- .carousel .active.left {left:0;opacity:0;z-index:2;}
- .carousel .next {left:0;opacity:1;z-index:1;}
-
- .carousel-inner {
-    line-height: 60 !important;
-    display: inline;
- }
-
- .carousel-inner .item {
-   height: 100%;
- }
