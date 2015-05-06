@@ -14,6 +14,14 @@ Rails.application.routes.draw do
   post'/users' => 'users#create'
 
   get '/welcome' => 'welcome#index'
+
+  get '/airtimemg' => 'airtimemg#index'
+  get '/services' => 'services#index'
+  get '/growth' => 'growth#index'
+  get '/apply' => 'apply#index'
+  get '/compare' => 'compare#index'
+  get '/ourtalents' => 'ourtalents#index'
+
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
