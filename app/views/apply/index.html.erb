@@ -17,26 +17,26 @@
 
 <div class="testbox">
   <h1>Registration</h1>
-  <form action="/">
-    <ul>
-    <div class="accounttype">
-      <input type="radio" value="None" id="radioOne" name="account" checked/>
-     <li> <label for="remember" class="pure-checkbox">
-          <input id="remember" type="checkbox"> Already Affiliated
-      </label></li>
-      <input type="radio" value="None" id="radioTwo" name="account" />
-      <li><label for="remember" class="pure-checkbox">
-          <input id="remember" type="checkbox"> Not yet Affiliated
-      </label></li>
-    </div>
-    </ul>
-  <hr>
+  <form action="/user">
   <label id="icon" for="name"><i class="icon-envelope "></i></label>
   <input type="text" name="name" id="name" placeholder="Name" required/>
   <label id="icon" for="name"><i class="icon-user"></i></label>
   <input type="text" name="name" id="name" placeholder="Email" required/>
   <label id="icon" for="name"><i class="icon-shield"></i></label>
   <input type="text" name="name" id="name" placeholder="youtube-url" required/>
+   <ul>
+   <div class="accounttype">
+     <input type="radio" value="None" id="radioOne" name="account" checked/>
+    <li> <label for="remember" class="pure-checkbox">
+         <input id="remember" type="checkbox"> Already Affiliated
+     </label></li>
+     <input type="radio" value="None" id="radioTwo" name="account" />
+     <li><label for="remember" class="pure-checkbox">
+         <input id="remember" type="checkbox"> Not yet Affiliated
+     </label></li>
+   </div>
+   </ul>
+   <hr>
    <p>By clicking Apply, you agree to our <a href="#">terms and condition</a>.</p>
    <a href="/user" type='submit' class="button">Apply</a>
   </form>
