@@ -217,3 +217,17 @@ a.button:hover {
   
 }
 
+#offerings{
+  font-family: 'Open Sans',sans-serif,Arial;
+  margin: 100px;
+  padding: 5px;
+  border: 1px;
+  outline: 1px;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+#style_image{
+  display: inline;
+}
