@@ -17,7 +17,10 @@
 
 <div class="testbox">
   <h1>Registration</h1>
-  <form action="/user">
+  <form   action="mailto:kevalwell@gmail.com"
+  method="POST"
+  enctype="multipart/form-data"
+  name="EmailTestForm">
   <label id="icon" for="name"><i class="icon-envelope "></i></label>
   <input type="text" name="name" id="name" placeholder="Name" required/>
   <label id="icon" for="name"><i class="icon-user"></i></label>
@@ -38,6 +41,6 @@
    </ul>
    <hr>
    <p>By clicking Apply, you agree to our <a href="#">terms and condition</a>.</p>
-   <a href="/user" type='submit' class="button">Apply</a>
+   <input type='submit' class="button" value="Apply">
   </form>
 </div>
