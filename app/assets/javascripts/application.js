@@ -14,3 +14,10 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
+$(document).ready(function() {
+
+    $('#header').cycle({
+        fx: 'fade',
+        timeout: 2000
+    });
+});

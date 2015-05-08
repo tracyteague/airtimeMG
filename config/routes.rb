@@ -6,12 +6,12 @@ Rails.application.routes.draw do
   # root 'welcome#index'
   # root '/'
   resources :welcome
-  resources :users
+  resources :user
 
   root 'welcome#index'
 
-  get '/signup' => 'users#new'
-  post'/users' => 'users#create'
+  get '/signup' => 'user#new'
+  post'/user' => 'user#create'
 
   get '/welcome' => 'welcome#index'
 
