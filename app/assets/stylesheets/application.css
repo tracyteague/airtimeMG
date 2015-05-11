@@ -19,6 +19,10 @@ body {
     height: 100%;
 }
 
+#globe{
+  margin-top: 5px;
+}
+
 #welcome{
   font-size: 120px;
   line-height: 100px;
@@ -26,7 +30,8 @@ body {
   letter-spacing: -5px;
   color: #ffffff;
   margin-top: 10%;
-  margin-bottom: -40%;
+  margin-bottom: -20%;
+  text-align: left;
 }
 
 #break-bar{
@@ -229,6 +234,10 @@ a.button:hover {
   
 }
 
+#talents:hover{
+  background-color: #BA6028 !important;
+}
+
 #offerings{
   font-family: 'Open Sans',sans-serif,Arial;
   margin: 100px;
@@ -240,6 +249,18 @@ a.button:hover {
   background: transparent;
 }
 
-#style_image{
+.style_image{
   display: inline;
+}
+
+#twitter:hover{
+  background-color: #4099FF !important;
+}
+
+#youtube:hover{
+  background-color: #dd4b39 !important; 
+}
+
+#facebook:hover{
+  background-color: #3b5998 !important;
 }
