@@ -16,8 +16,15 @@
 //= require_tree .
 $(document).ready(function() {
 
-    $('#header').cycle({
-        fx: 'fade',
-        timeout: 2000
-    });
+    // $('#header').cycle({
+    //     fx: 'fade',
+    //     timeout: 2000
+    // });
+
+
+$('.carousel').carousel({
+  interval: 3000,
+  pause: false
+});
+
 });
