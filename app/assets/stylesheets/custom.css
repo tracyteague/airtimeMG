@@ -86,3 +86,54 @@
   font-weight: 400;
   border: 5px solid #C9C9C9;
 }
+
+.description-text {
+  font-size: 30px;
+  text-align: center;
+  margin: 5% !important;
+}
+
+hr {
+    color: 5px solid black;
+}
+
+
+.team-title {
+  font-size: 40px;
+  text-align: center;
+}
+
+.team-caption {
+  font-size: 20px;
+  text-align: center;
+}
+
+.team {
+  text-align: center
+  width: 500px;
+  height: auto;
+  padding: 3px;
+  display: table;
+  margin: auto;
+}
+
+.team_member {
+  height: 150px !important;
+  width: 180px !important;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.team_img {
+  height: 100% !important;
+  width: 100% !important;
+  border-radius: 30px;
+  border: 5px solid #232838;
+}
+
+.name-label {
+  text-align: center !important;
+}
