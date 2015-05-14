@@ -171,3 +171,16 @@ hr {
   text-align: center;
   padding-top: 5px;
 }
+
+#remember {
+  margin-left: 10px;
+  margin-right: 20px;
+}
+
+#apply-btn {
+  margin-left: 37% !important;
+  font-family: 'Open Sans',sans-serif,Arial;
+  font-size: 12px;
+  border-radius: 20px;
+  border: 5px solid #C9C9C9;
+}
