@@ -138,10 +138,36 @@ hr {
   text-align: center !important;
 }
 
-.services-header{
+.services-header {
   font-weight: bolder;
+
 }
 
 .services-list {
   font-size: 14px;
+}
+
+.apply {
+  text-align: center;
+  font-family: 'Open Sans',sans-serif,Arial;
+}
+
+#apply-list {
+  font-size: 14px;
+  font-style: italic;
+  font-family: 'Open Sans',sans-serif,Arial;
+}
+
+.jumbotron h1 {
+  font-family: 'Open Sans',sans-serif,Arial;
+  font-size: 40px;
+}
+
+.testbox {
+  font-family: 'Open Sans',sans-serif,Arial;
+}
+
+.testbox h5 {
+  text-align: center;
+  padding-top: 5px;
 }

@@ -263,7 +263,9 @@ a.button:hover {
 
 #offerings{
   font-family: 'Open Sans',sans-serif,Arial;
-  margin: 100px;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 50px;
   padding: 5px;
   border: 1px;
   outline: 1px;
