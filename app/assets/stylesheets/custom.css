@@ -88,7 +88,7 @@
 }
 
 .description-text {
-  font-size: 30px;
+  font-size: 25px;
   text-align: center;
   margin: 5% !important;
 }
@@ -105,7 +105,7 @@
 }
 
 .team {
-  text-align: center
+  text-align: center;
   width: 500px;
   height: auto;
   padding: 3px;
@@ -176,40 +176,6 @@
   border: 5px solid #C9C9C9;
 }
 
-
-.col-xs-15,
-.col-sm-15,
-.col-md-15,
-.col-lg-15 {
-    position: relative;
-    min-height: 1px;
-    padding-right: 10px;
-    padding-left: 10px;
-}
-
-.col-xs-15 {
-    width: 20%;
-    float: left;
-}
-@media (min-width: 768px) {
-.col-sm-15 {
-        width: 20%;
-        float: left;
-    }
-}
-@media (min-width: 992px) {
-    .col-md-15 {
-        width: 20%;
-        float: left;
-    }
-}
-@media (min-width: 1200px) {
-    .col-lg-15 {
-        width: 20%;
-        float: left;
-    }
-}
-
 .subheader {
   text-align: center;
 }
@@ -227,4 +193,8 @@
   font-size: 25px;
   text-align: center;
   margin: 5% !important;
+}
+
+#airtime-desc-div {
+  background: #C9C9C9;
 }
