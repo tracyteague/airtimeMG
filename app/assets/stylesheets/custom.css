@@ -137,3 +137,11 @@ hr {
 .name-label {
   text-align: center !important;
 }
+
+.services-header{
+  font-weight: bolder;
+}
+
+.services-list {
+  font-size: 14px;
+}
