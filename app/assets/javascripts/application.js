@@ -12,7 +12,6 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require turbolinks
 //= require_tree .
 $(document).ready(function() {
 
@@ -20,7 +19,6 @@ $(document).ready(function() {
     //     fx: 'fade',
     //     timeout: 2000
     // });
-
 
 $('.carousel').carousel({
   interval: 3000,
