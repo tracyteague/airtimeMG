@@ -17,13 +17,13 @@
     background-position: center center;
 }
 .slide1 {
-    background-image: url("front1.png");
+    background-image: url("slide1.png");
 }
 .slide2 {
-    background-image: url("front2.png");
+    background-image: url("slide2.png");
 }
 .slide3 {
-    background-image: url("front3.png");
+    background-image: url("slide3.png");
 }
 /* Carousel Fade Effect */
 .carousel.carousel-fade .item {
